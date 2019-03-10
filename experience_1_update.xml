@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
+<!DOCTYPE Image SYSTEM "Image.dtd">
 <root>
 <!--71116211齐硕部分-->
 	<Image id = "1">
@@ -292,4 +292,124 @@
 		</DetailedInfo>
 	</Image>
 <!--71116115张慧佳部分-->
+	<Image id="21">
+		<BasicInfo Source="https://Shuo-Qi.github.io/Architecture/21.jpg" Author="wang1618">
+			<Resolution>720*479</Resolution>
+			<Format>jpg</Format>
+			<Size>30.7KB</Size>
+		</BasicInfo>
+		<DetailedInfo name="玻璃幕墙">
+			<Introduction>通过高耸的建筑外立面和带有强烈金属质感的建筑材料堆积出居住者的炫富感，以国际流行的色调和非对称性的手法，彰显都市感和现代感。</Introduction>
+			<Style name="现代主义建筑" Classification="历史发展潮流">高低跌宕，简单轻松，舒适自然。强调时代感是它最大的特点。</Style>
+		</DetailedInfo>
+	</Image>
+
+	<Image id="22">
+		<BasicInfo Source="https://Shuo-Qi.github.io/Architecture/22.jpg" Author="wang1618">
+			<Resolution>604*800</Resolution>
+			<Format>jpg</Format>
+			<Size>90.6KB</Size>
+		</BasicInfo>
+		<DetailedInfo name="别墅">
+			<Introduction>竖线条的色彩分割和纯粹抽象的集合风格，凝练硬朗，营造挺拔的社区形象。</Introduction>
+			<Style name="现代主义建筑" Classification="历史发展潮流">高低跌宕，简单轻松，舒适自然。强调时代感是它最大的特点。</Style>
+		</DetailedInfo>
+	</Image>
+
+	<Image id="23">
+		<BasicInfo Source="https://Shuo-Qi.github.io/Architecture/23.jpg" Author="wang1618">
+			<Resolution>450*300</Resolution>
+			<Format>jpg</Format>
+			<Size>24.9KB</Size>
+		</BasicInfo>
+		<DetailedInfo name="住宅区">
+			<Introduction>房屋造型有一定的寓意和象征，彷佛数字、字母等。</Introduction>
+			<Style name="后现代主义风格" Classification="历史发展潮流">采用装饰，具有象征性或隐喻性，与现有环境融合。</Style>
+		</DetailedInfo>
+	</Image>
+	
+	<Image id="24">
+		<BasicInfo Source="https://Shuo-Qi.github.io/Architecture/24.jpg" Author="wang1618">
+			<Resolution>640*426</Resolution>
+			<Format>jpg</Format>
+			<Size>59.0KB</Size>
+		</BasicInfo>
+		<DetailedInfo name="哥特式教堂">
+			<Introduction>高耸的尖塔,超人的尺度和繁缛的装饰,形成统一向上的旋律.</Introduction>
+			<Style name="哥特式建筑风格" Classification="建筑方式">整体风格为高耸削瘦,以卓越的建筑技艺表现了神秘、哀婉、崇高的强烈情感对后世其他艺术均有重大影响。</Style>
+		</DetailedInfo>
+	</Image>
+	
+	<Image id="25">
+		<BasicInfo Source="https://Shuo-Qi.github.io/Architecture/25.jpg" Author="wang1618">
+			<Resolution>600*398</Resolution>
+			<Format>jpg</Format>
+			<Size>76.7KB</Size>
+		</BasicInfo>
+		<DetailedInfo name="巴洛克式房屋">
+			<Introduction>外形自由,追求动态,喜好富丽的装饰和雕刻、强烈的色彩,常用穿插的曲面和椭圆形空间。</Introduction>
+			<Style name="巴洛克建筑风格" Classification="建筑方式">为讲究华丽、装饰的一种建筑风格,即使过于繁琐也要刻意追求。</Style>
+		</DetailedInfo>
+	</Image>
+
+	<Image id="26">
+		<BasicInfo Source="https://Shuo-Qi.github.io/Architecture/26.jpg" Author="wang1618">
+			<Resolution>720*522</Resolution>
+			<Format>jpg</Format>
+			<Size>88.6KB</Size>
+		</BasicInfo>
+		<DetailedInfo name="长廊">
+			<Introduction>金碧辉煌的长廊，华丽精巧的装饰，大量的半抽象题材。</Introduction>
+			<Style name="洛可可建筑风格" Classification="建筑方式">纤弱娇媚、华丽精巧、甜腻温柔、纷繁琐细、木条式建筑风格。</Style>
+		</DetailedInfo>
+	</Image>
+	
+	<Image id="27">
+		<BasicInfo Source="https://Shuo-Qi.github.io/Architecture/27.jpg" Author="wang1618">
+			<Resolution>700*458</Resolution>
+			<Format>jpg</Format>
+			<Size>81.2KB</Size>
+		</BasicInfo>
+		<DetailedInfo name="园林景观">
+			<Introduction>在生态园林中建筑的房屋。</Introduction>
+			<Style name="园林风格" Classification="建筑方式">通过环境规划和景观设计,栽植花草树木,提高绿化,并围绕建筑营造园林景观。</Style>
+		</DetailedInfo>
+	</Image>
+	
+	<Image id="28">
+		<BasicInfo Source="https://Shuo-Qi.github.io/Architecture/28.jpg" Author="wang1618">
+			<Resolution>700*448</Resolution>
+			<Format>jpg</Format>
+			<Size>70.7KB</Size>
+		</BasicInfo>
+		<DetailedInfo name="房屋概念图">
+			<Introduction>一楼为停车场、游泳池，二楼有露天餐厅、娱乐设施，顶层则是卧室。</Introduction>
+			<Style name="概念式风格" Classification="建筑方式">力求摆脱对建筑本身限制和约束,而创造出一种个性化色彩很强的建筑风格。
+			</Style>
+		</DetailedInfo>
+	</Image>
+	
+	<Image id="29">
+		<BasicInfo Source="https://Shuo-Qi.github.io/Architecture/29.jpg" Author="wang1618">
+			<Resolution>658*648</Resolution>
+			<Format>jpg</Format>
+			<Size>126.0KB</Size>
+		</BasicInfo>
+		<DetailedInfo name="单栋别墅">
+			<Introduction>一栋三层式别墅，周围种植树木，整体简洁大方。</Introduction>
+			<Style name="综合类建筑风格" Classification="建筑方式">多种不同建筑风格的组团综合在一起	然后再在不同的区域内建造与之相符的园林景观，使得整个社区体现出浓郁的异域风情。</Style>
+		</DetailedInfo>
+	</Image>
+
+	<Image id="30">
+		<BasicInfo Source="https://Shuo-Qi.github.io/Architecture/30.jpg" Author="wang1618">
+			<Resolution>564*856</Resolution>
+			<Format>jpg</Format>
+			<Size>77.0KB</Size>
+		</BasicInfo>
+		<DetailedInfo name="联排别墅区">
+			<Introduction>独具异域风情的幕墙，别具一格的建筑方式，不同样式的联排别墅。</Introduction>
+			<Style name="综合类建筑风格" Classification="建筑方式">多种不同建筑风格的组团综合在一起，然后再在不同的区域内建造与之相符的园林景观，使得整个社区体现出浓郁的异域风情。</Style>
+		</DetailedInfo>
+	</Image>
 </root>
