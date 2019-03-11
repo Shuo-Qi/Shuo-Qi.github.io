@@ -1,16 +1,17 @@
-<?xml version="1.0" encoding="UTF-8">
+<?xml version="1.0" encoding="UTF-8"?>
+
 <!ELEMENT Image (BasicInfo,DetailedInfo)>
 <!ATTLIST Image id ID #REQUIRED>
 <!ELEMENT BasicInfo (Resolution,Format,Size)>
-<!ATTLIST BasicInfo Author CDATA #FIXED "wang1618">
+<!ATTLIST BasicInfo Author CDATA "佚名">
 <!ATTLIST BasicInfo Time CDATA #IMPLIED>
 <!ATTLIST BasicInfo Source CDATA #REQUIRED>
 <!ELEMENT Resolution (#PCDATA)>
 <!ELEMENT Format (#PCDATA)>
 <!ELEMENT Size (#PCDATA)>
-<!ELEMENT DetailedInfo (Introduction,Style>
-<!ATTLIST DetailedInfo name CDATA #REQUIRED>
+<!ELEMENT DetailedInfo (Introduction,Style)>
+<!ATTLIST DetailedInfo name CDATA #IMPLIED>
 <!ELEMENT Introduction (#PCDATA)>
 <!ELEMENT Style (#PCDATA)>
 <!ATTLIST Style name CDATA #REQUIRED>
-<!ATTLIST Style Classification (民族地域|发展潮流|建筑方式) #IMPLIED>
+<!ATTLIST Style Classification (民族地域|发展潮流|建筑方式) #REQUIRED>
