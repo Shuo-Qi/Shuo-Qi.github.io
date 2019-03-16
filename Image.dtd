@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!ELEMENT Image (BasicInfo,DetailedInfo)>
-<!ATTLIST Image id ID #REQUIRED>
+<!ATTLIST Image ID ID #REQUIRED>
+<!ATTLIST Image Downloadable (0|1) #REQUIRED>
 <!ELEMENT BasicInfo (Resolution,Format,Size)>
 <!ATTLIST BasicInfo Author CDATA "佚名">
 <!ATTLIST BasicInfo Time CDATA #IMPLIED>
