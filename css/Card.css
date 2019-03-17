@@ -11,7 +11,7 @@ card {
     margin-bottom: 16pt;
     color: orange;
     font-weight: bold;
-	content:学号(href)
+	content:学号(href);
 }
 
 联系方式 {
