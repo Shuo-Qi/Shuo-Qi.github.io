@@ -1,16 +1,18 @@
-<?xml version="1.0" ?>
-<人员>
-	<张慧佳>
-		<基本信息>
-			<性别>男</性别>
-			<年龄>21</年龄>
-			<生日 date="07/09/1998"/>
-		</基本信息>
-		<联系方式 电话="15651979993" qq="1471993557"/>
-		<身份>
-			<学历>本科生在读</学历>
-			<院校>东南大学</院校>
-            <学号>71116214</学号>
-		</身份>
-	</张慧佳>
-</人员>
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type="text/css" href="C:\Users\65601\Desktop\Card.css"?>
+<!--个人名片-->
+<card>
+    <name>张慧佳</name>
+	<student>71116115</student>
+<!--联系方式-->	
+    <contact>
+	  QQ:<QQ>1471993557</QQ>	  
+	  Tel:<tel>15651979993</tel>
+	  Email:<email>1471993557@qq.com</email>
+	  Postcode:<postcode>211189</postcode>
+	</contact>
+<!--工作单位-->	
+	Organization:<organization>东南大学</organization>
+<!--地址-->	
+	Address:<address>南京市江宁区秣周东路</address>	
+</card>

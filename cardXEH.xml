@@ -1,23 +1,18 @@
-<?xml version="1.0" encoding = "UTF-8"?>
-<!-- 个人名片-->
-<人员>
-	<徐恩昊>
-		<照片>url</照片>
-		<!--个人基本信息-->
-		<基本信息>
-			<性别>男</性别>
-			<年龄>20</年龄>
-			<身份>
-				<职位>学生</职位>
-                <学号>71116214</学号>
-				<单位>东南大学</单位>
-			</身份>
-		</基本信息>
-		<!--个人联系方式-->
-		<联系方式>
-			<联系电话>15651990078</联系电话>
-			<QQ>656018919</QQ>
-			<邮箱>656018919@qq.com</邮箱>
-		</联系方式>
-	</徐恩昊>
-</人员>
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type="text/css" href="C:\Users\65601\Desktop\Card.css"?>
+<!--个人名片-->
+<card>
+    <name>徐恩昊</name>
+	<student>71116214</student>
+<!--联系方式-->	
+    <contact>
+	  QQ:<QQ>656018919</QQ>	  
+	  Tel:<tel>15695217779</tel>
+	  Email:<email>656018919@qq.com</email>
+	  Postcode:<postcode>211189</postcode>
+	</contact>
+<!--工作单位-->	
+	Organization:<organization>东南大学</organization>
+<!--地址-->	
+	Address:<address>南京市江宁区秣周东路</address>	
+</card>
