@@ -1,0 +1,40 @@
+root{
+background-color: whitesmoke;
+    display: block;
+    width: 70%;
+    margin-left: 20pt;
+    margin: auto;
+    margin-top: 60px;
+}
+Image{
+    display: block;
+}
+Resolution{
+display: block;
+}
+Introduction{
+    margin-top: 10px;
+    font-size: 30px;
+     margin-bottom: 16pt;
+    color: orange;
+    font-weight: bold;
+    margin-right: 30px;
+display: block;
+}
+style{
+    margin-right:750px;
+
+}
+BasicInfo{
+
+    margin-left: 20px;
+    opacity: 0.7;
+display: block;
+}
+ DetailedInfo{
+    font-size: 16px;
+     opacity: 0.6;
+     margin-left: 20px;
+     margin-right: 50px;
+     display: block;
+ }
