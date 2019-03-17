@@ -6,7 +6,7 @@ card {
     margin-top: 60px;
 }
 
-ÆëË¶ {
+ÆëË¶:hover:after {
     font-size: 23pt;
     margin-bottom: 16pt;
     color: orange;
