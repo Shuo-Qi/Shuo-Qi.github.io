@@ -6,18 +6,12 @@ card {
     margin-top: 60px;
 }
 
-身份 {
+齐硕 {
     font-size: 23pt;
     margin-bottom: 16pt;
     color: orange;
     font-weight: bold;
-}
-
-学号 {
-    font-size: 13pt;
-    margin-left: 10pt;
-    font-style: italic;
-    color: yellowgreen;
+	content:学号(href)
 }
 
 联系方式 {
