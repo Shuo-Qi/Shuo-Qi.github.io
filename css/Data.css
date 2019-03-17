@@ -30,9 +30,10 @@ BasicInfo{
 	margin-bottom:15px;
 }
 
-BasicInfo:hover::after{
-	content: attr("Src:  "Source);
+BasicInfo::after{
+	content: "Url:  "attr(Source);
     display: block;
+	margin-top:13px;
 }
 
 BasicInfo:hover::before{
