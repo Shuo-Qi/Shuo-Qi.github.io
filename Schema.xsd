@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.w3school.com.cn" xmlns="http://www.w3school.com.cn" elementFormDefault="qualified">
+	<!--定义元素“像素”,类型字符串-->
+	<xs:element name="Resolution" type="xs:string"/>
+	<!--定义元素“格式”，类型为字符串，默认“jpg”格式-->
+	<xs:element name="Format" type="xs:string" default="jpg"/>
+	<!--定义元素“大小”，类型为字符串-->
+	<xs:element name="Size" type="xs:string"/>
+	<!--定义复杂元素“基本信息”,其中属性“时间”可选-->
+	<xs:element name="BasicInfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Resolution"/>
+				<xs:element ref="Format"/>
+				<xs:element ref="Size"/>
+			</xs:sequence>
+			<xs:attribute name="Author" type="xs:string" use="required"/>
+			<xs:attribute name="Time" type="xs:date"/>
+			<xs:attribute name="Source" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<!--定义元素“介绍”，类型为字符串-->
+	<xs:element name="Introduction" type="xs:string"/>
+	<!--定义类型“风格名”-->
+	<xs:simpleType name="StyleName">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="地中海建筑风格"/>
+			<xs:enumeration value="意大利建筑风格"/>
+			<xs:enumeration value="法式建筑风格"/>
+			<xs:enumeration value="英式建筑风格"/>
+			<xs:enumeration value="德国建筑风格"/>
+			<xs:enumeration value="北美建筑风格"/>
+			<xs:enumeration value="新中式建筑风格"/>
+			<xs:enumeration value="古典主义建筑风格"/>
+			<xs:enumeration value="新古典主义建筑风格"/>
+			<xs:enumeration value="现代主义建筑"/>
+			<xs:enumeration value="后现代主义风格"/>
+			<xs:enumeration value="哥特式建筑风格"/>
+			<xs:enumeration value="巴洛克建筑风格"/>
+			<xs:enumeration value="洛可可建筑风格"/>
+			<xs:enumeration value="园林风格"/>
+			<xs:enumeration value="概念式风格"/>
+			<xs:enumeration value="综合类建筑风格"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--定义类型“类别名”-->
+	<xs:simpleType name="ClassificationName">
+		<xs:restriction base="xs:string">
+			<xs:enumeration value="民族地域"/>
+			<xs:enumeration value="历史发展潮流"/>
+			<xs:enumeration value="建筑方式"/>
+		</xs:restriction>
+	</xs:simpleType>
+	<!--定义复杂元素“风格”-->
+	<xs:element name="Style">
+		<xs:complexType>
+			<xs:simpleContent>
+				<xs:extension base="xs:string">
+					<xs:attribute name="name" type="StyleName" use="required"/>
+					<xs:attribute name="Classification" type="ClassificationName"/>
+				</xs:extension>
+			</xs:simpleContent>
+		</xs:complexType>
+	</xs:element>
+	<!--定义复杂元素“详细介绍”-->
+	<xs:element name="DetailedInfo">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Introduction"/>
+				<xs:element ref="Style"/>
+			</xs:sequence>
+			<xs:attribute name="name" type="xs:string" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<!--定义复杂元素“图片”-->
+	<xs:element name="Image">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="BasicInfo"/>
+				<xs:element ref="DetailedInfo"/>
+			</xs:sequence>
+			<xs:attribute name="ID" type="xs:integer" use="required"/>
+			<xs:attribute name="Downloadable" type="xs:boolean" use="required"/>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="root">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="Image" minOccurs="1" maxOccurs="unbounded"/>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

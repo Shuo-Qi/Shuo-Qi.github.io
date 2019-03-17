@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE root SYSTEM "Image.dtd">
-<?xml-stylesheet type="text/css" href="Shuo-Qi.github.io/css/Data.css"?>
-<root>
+<!--DOCTYPE Image SYSTEM "Image.dtd"-->
+<?xml-stylesheet type="text/css" href="https://Shuo-Qi.github.io/css/Data.css"?>
+<root xmlns="http://www.w3school.com.cn"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.w3school.com.cn Schema.xsd">
+
 <!--71116211齐硕部分-->
 	<Image ID = "1" Downloadable = "1">
 		<BasicInfo Author = "wang1618" Source = "https://Shuo-Qi.github.io/Architecture/1.jpg" Time = "2018-08-21">
