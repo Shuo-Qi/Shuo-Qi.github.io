@@ -30,6 +30,11 @@ BasicInfo{
 	margin-bottom:15px;
 }
 
+BasicInfo:hover::after{
+	content: attr("Src:  "Source);
+    display: block;
+}
+
 BasicInfo:hover::before{
 	content: "Time:  "attr(Time);
     display: block;
@@ -94,6 +99,8 @@ Style,Introduction{
 	margin-bottom:15pt;
 	font-size:18px;
 }
+
+
 
 
 
