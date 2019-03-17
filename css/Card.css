@@ -6,17 +6,16 @@ card {
     margin-top: 60px;
 }
 
-齐硕:hover:after {
+齐硕.学号 {
     font-size: 23pt;
     margin-bottom: 16pt;
     color: orange;
     font-weight: bold;
-	content:学号(href);
 }
 
 联系方式 {
 
-     display: block;
+    display: block;
     margin-left: 0;
     margin-top: 16pt;
     font-size: 18pt;
