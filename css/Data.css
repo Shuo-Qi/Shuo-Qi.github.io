@@ -1,40 +1,99 @@
+
 root{
-background-color: whitesmoke;
+	background-color: #A3BCF0;
     display: block;
     width: 70%;
-    margin-left: 20pt;
     margin: auto;
     margin-top: 60px;
+	border: 5px solid #CCF8F8;
+    border-radius: 5px;
+	
 }
+
 Image{
+	margin:auto;
+	margin-top:35px;
+    display: block;
+	width:80%;
+}
+
+Image::before{
+	content:"ID:"attr(ID);
+	font-style:bold;
+	font-size: 20px;
+	display:block;
+	margin-bottom:10px;
+}
+
+BasicInfo{
+    display:block;
+	margin-bottom:15px;
+}
+
+BasicInfo:hover::before{
+	content: "Time:  "attr(Time);
     display: block;
 }
-Resolution{
-display: block;
+
+BasicInfo::before{
+	content:"From:  " attr(Author);
+	display:block;
+	margin-bottom:10px;
 }
-Introduction{
-    margin-top: 10px;
-    font-size: 30px;
-     margin-bottom: 16pt;
-    color: orange;
+
+Resolution::before{
+	content: "Resolution:  ";
+}
+
+Format::before{
+	content: "Format:  ";
+}
+
+Size::before{
+	content: "Size:  ";
+}
+
+Resolution,Format,Size{
+	font-size: 16px;
+    margin-right: 50px;
+}
+
+
+DetailedInfo{
+	display:block;	
+ }
+
+DetailedInfo::before{
+	content:"Name:  "attr(name);
+	display: block;
+	margin-top: 5px;
+    font-size: 22px;
+    margin-bottom: 10pt;
+    color: #9D1F1F;
     font-weight: bold;
     margin-right: 30px;
-display: block;
-}
-style{
-    margin-right:750px;
-
-}
-BasicInfo{
-
-    margin-left: 20px;
-    opacity: 0.7;
-display: block;
-}
- DetailedInfo{
-    font-size: 16px;
-     opacity: 0.6;
-     margin-left: 20px;
-     margin-right: 50px;
-     display: block;
  }
+
+Style::before{
+	content:"Style:  "attr(name);
+	margin-top: 10px;
+    font-size: 20px;
+    margin-bottom: 16pt;
+    color: #20AAAB;
+    font-weight: bold;
+    margin-right: 20px;
+ }
+
+
+Introduction::before{
+	content: "Introduction:  ";
+}
+
+Style,Introduction{
+	display:block;
+	margin-bottom:15pt;
+	font-size:18px;
+}
+
+
+
