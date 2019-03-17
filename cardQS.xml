@@ -2,19 +2,17 @@
 <?xml-stylesheet type="text/css" href="Shuo-Qi.github.io/css/Card.css"?>
 <!--个人名片-->
 <card>
-    <齐硕 身份 = "学生"
-		  学号 = "71116211">
+    <name>齐硕</name>
+	<student>71116211</student>
 <!--联系方式-->	
-    <联系方式>
-	  <QQ>2691171990</QQ>	  
-	  <电话>15695217779</电话>
-	  <邮箱>2691171990@qq.com</邮箱>
-	  <邮政编码>211189</邮政编码>
-	</联系方式>
+    <contact>
+	  QQ:<QQ>2691171990</QQ>	  
+	  Tel:<tel>15695217779</tel>
+	  Email:<email>2691171990@qq.com</email>
+	  Postcode:<postcode>211189</postcode>
+	</contact>
 <!--工作单位-->	
-	<工作单位>东南大学软件学院</工作单位>
+	Organization:<organization>东南大学软件学院</organization>
 <!--地址-->	
-	<地址>南京市江宁区秣周东路</地址>
-	
-	</齐硕>
+	Address:<address>南京市江宁区秣周东路</address>	
 </card>

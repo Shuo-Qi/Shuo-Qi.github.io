@@ -1,36 +1,37 @@
 card {
-    background-color: whitesmoke;
+    background-color: #E0D1B1;
     display: block;
     width: 100%;
-    margin-left: 90pt;
+    margin-left: 40%;
     margin-top: 60px;
 }
 
-齐硕.学号 {
-    font-size: 23pt;
+name {
+    font-size: 30pt;
     margin-bottom: 16pt;
-    color: orange;
+    color: #315FBD;
     font-weight: bold;
 }
 
-联系方式 {
-
-    display: block;
-    margin-left: 0;
-    margin-top: 16pt;
-    font-size: 18pt;
+student {
+	display: block;
+    font-size: 13pt;
+    margin-left: 40pt;
+    color: #315FBD;
+	font-weight: bold;
 }
 
-QQ, 电话, 邮箱 {
+
+QQ, tel, email {
     display: block;
     font-size: 15pt;
-    margin-top: 5pt;
-     margin-bottom: 5pt;
+    margin-top: 8pt;
+    margin-bottom: 8pt;
     font-style: italic;
 }
 
-工作单位, 地址 {
-    display: block;
-    font-size: 15pt;
-    margin-top: 5pt;
+postcode,organization, address {
+    font-size: 12pt;
+    margin-left:7pt;
+	margin-right:7pt;
 }
