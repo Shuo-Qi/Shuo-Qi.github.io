@@ -4,7 +4,7 @@
 
 <xsl:template match="/">
   <html>
-  <body background="C:\Users\65601\Desktop\weather.png" style="margin-left:150px;margin-top:50px;">
+  <body background="https://Shuo-Qi.github.io/img/weather.png" style="margin-left:150px;margin-top:50px;">
     <h2 style="font-weight:bold;color:red;font-size:30px;text-align:center">经典建筑图片</h2>
     <hr style="width:30%;height:6px;border:none;border-top:8px groove skyblue;margin-bottom:45px;"/>    
       <xsl:apply-templates/>        
