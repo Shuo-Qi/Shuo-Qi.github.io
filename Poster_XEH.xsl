@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 	<xsl:template match="/">
 		<html>
-			<body background="D:\GITHUB\Shuo-Qi.github.io\img\img_2.jpg" style="margin-left:200px;margin-top:50px;margin-right:200px;line-height:1.5;background-position:center center;background-repeat: no-repeat;background-attachment: fixed;background-size: cover;">
+			<body background="https://Shuo-Qi.github.io/img/img_2.jpg" style="margin-left:200px;margin-top:50px;margin-right:200px;line-height:1.5;background-position:center center;background-repeat: no-repeat;background-attachment: fixed;background-size: cover;">
 				<h2 style="margin-top:80px;font-family:Georgia;font-weight:bold;color:#BB4444;font-size:45px;text-align:center">世界著名建筑图片</h2>
 				<xsl:for-each select="root/Image">
 					<xsl:sort select="@ID" data-type="number" order="descending"/>
