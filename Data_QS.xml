@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DOCTYPE Image SYSTEM "Image.dtd"-->
+<!--xml-stylesheet type="text/css" href="https://Shuo-Qi.github.io/css/Data.css"-->
+<!--xml-stylesheet type="text/xsl" href="https://Shuo-Qi.github.io/Poster_QS.xsl"-->
+<?xml-stylesheet type="text/xsl" href="https://Shuo-Qi.github.io/Poster_QS.xsl"?>
+<root>
+
+<Image ID = "31" Downloadable = "1">
+		<BasicInfo Author = "Julia Brant" Source = "https://Shuo-Qi.github.io/Architecture/31.jpg" Time = "2018-08-23">
+			<Resolution>1500*1000</Resolution>
+			<Format>jpg</Format>
+			<Size>803.0KB</Size>
+		</BasicInfo>
+		<DetailedInfo name = "帕特农神庙">
+			<Introduction>
+帕特农神庙是古典建筑中最伟大的作品。该神庙建于公元前5世纪的雅典卫城，它展示了引人注目的特点：建筑体积建造在基座之上，基座支撑着一系列的圆柱和柱头上的体量，接着再支撑一个山花。
+			</Introduction>
+			<Style name = "古典主义建筑风格" Classification = "历史发展潮流">古典主义建筑风格指在古希腊建筑和古罗马建筑的基础上发展起来的意大利文艺复兴建筑、巴洛克建筑和古典复兴建筑，其共同特点是采用古典柱式。
+			</Style>
+		</DetailedInfo>
+	</Image>
+
+	<Image ID="32" Downloadable = "1">
+		<BasicInfo Source="https://Shuo-Qi.github.io/Architecture/32.jpg" Author="Julia Brant" Time = "2018-08-23">
+			<Resolution>620*1000</Resolution>
+			<Format>jpg</Format>
+			<Size>213.0KB</Size>
+		</BasicInfo>
+		<DetailedInfo name="兰斯圣母院">
+			<Introduction>与教会建筑有关，通常是教堂和大教堂，带有尖形拱门（ogival arches）和肋状拱顶（rib vaults）。</Introduction>
+			<Style name="哥特式建筑风格" Classification="建筑方式">整体风格为高耸削瘦,以卓越的建筑技艺表现了神秘、哀婉、崇高的强烈情感对后世其他艺术均有重大影响。</Style>
+		</DetailedInfo>
+	</Image>
+
+	<Image ID="33" Downloadable = "1">
+		<BasicInfo Source="https://Shuo-Qi.github.io/Architecture/33.jpg" Author="Julia Brant" Time = "2018-08-23">
+			<Resolution>1059*1000</Resolution>
+			<Format>jpg</Format>
+			<Size>184.0KB</Size>
+		</BasicInfo>
+		<DetailedInfo name="耶稣堂">
+			<Introduction>利用装饰物和建筑元素试图建立一种戏剧性的感觉，尤其是通过明暗对比将结构元素也同样视为一种装饰。</Introduction>
+			<Style name="巴洛克建筑风格" Classification="建筑方式">为讲究华丽、装饰的一种建筑风格,即使过于繁琐也要刻意追求。</Style>
+		</DetailedInfo>
+	</Image>
+
+	<Image ID="34" Downloadable = "1">
+		<BasicInfo Source="https://Shuo-Qi.github.io/Architecture/34.jpg" Author="Julia Brant" Time = "2018-08-23">
+			<Resolution>2079*1397</Resolution>
+			<Format>jpg</Format>
+			<Size>4200.0KB</Size>
+		</BasicInfo>
+		<DetailedInfo name="巴黎歌剧院">
+			<Introduction>歌剧院是由查尔斯·加尼叶于1861年设计的，是折衷主义登峰造极的作品，其建筑将古希腊罗马式柱廊、巴洛克等几种建筑形式完美地结合在一起，规模宏大，精美细致，金碧辉煌，被誉为是一座绘画、大理石和金饰交相辉映的剧院，给人以极大的享受。是拿破仑三世典型的建筑之一。</Introduction>
+			<Style name="新古典主义建筑风格" Classification="历史发展潮流">新古典主义建筑风格新古典主义是古典与现代的结合物,它的精华来自古典主义,但不是仿古,更不是复古,而是追求神似。</Style>
+		</DetailedInfo>
+	</Image>
+
+	<Image ID="35" Downloadable = "1">
+		<BasicInfo Source="https://Shuo-Qi.github.io/Architecture/35.jpg" Author="echo arch" Time = "2018-08-28">
+			<Resolution>792*594</Resolution>
+			<Format>jpg</Format>
+			<Size>61.0KB</Size>
+		</BasicInfo>
+		<DetailedInfo name="萨伏伊别墅">
+			<Introduction>这幢白房子表面看来平淡无奇，简单的柏拉图形体和平整的白色粉刷的外墙，简单到几乎没有任何多余装饰的程度，“唯一的可以称为装饰部件的是横向长窗，这是为了能最大限度地让光线射入。</Introduction>
+			<Style name="现代主义建筑" Classification="历史发展潮流">高低跌宕，简单轻松，舒适自然。强调时代感是它最大的特点。</Style>
+		</DetailedInfo>
+	</Image>
+</root>
