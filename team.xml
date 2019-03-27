@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="team.xsl"?>
+<!--个人名片-->
+<team>
+	<card>
+		<id>1</id>
+		<name>齐硕</name>
+		<student>71116211</student>
+		<!--联系方式-->
+		<contact>
+
+	  QQ:<QQ>2691171990</QQ>	  
+
+	  Tel:<tel>15695217779</tel>
+
+	  Email:<email>2691171990@qq.com</email>
+
+	  Postcode:<postcode>211189</postcode>
+		</contact>
+		<!--工作单位-->	
+
+	Organization:<organization>东南大学软件学院</organization>
+		<!--地址-->	
+
+	Address:<address>南京市江宁区秣周东路</address>
+	</card>
+	<card>
+		<id>2</id>
+		<name>徐恩昊</name>
+		<student>71116214</student>
+		<!--联系方式-->
+		<contact>
+
+	  QQ:<QQ>656018919</QQ>	  
+
+	  Tel:<tel>15695217779</tel>
+
+	  Email:<email>656018919@qq.com</email>
+
+	  Postcode:<postcode>211189</postcode>
+		</contact>
+		<!--工作单位-->	
+
+	Organization:<organization>东南大学</organization>
+		<!--地址-->	
+
+	Address:<address>南京市江宁区秣周东路</address>
+	</card>
+	<card>
+		<id>3</id>
+		<name>张慧佳</name>
+		<student>71116115</student>
+		<!--联系方式-->
+		<contact>
+
+	  QQ:<QQ>1471993557</QQ>	  
+
+	  Tel:<tel>15651979993</tel>
+
+	  Email:<email>1471993557@qq.com</email>
+
+	  Postcode:<postcode>211189</postcode>
+		</contact>
+		<!--工作单位-->	
+
+	Organization:<organization>东南大学</organization>
+		<!--地址-->	
+
+	Address:<address>南京市江宁区秣周东路</address>
+	</card>
+</team>
