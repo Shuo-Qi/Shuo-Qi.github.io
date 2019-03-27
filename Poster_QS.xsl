@@ -23,7 +23,7 @@
 			 <xsl:attribute name="src"><xsl:value-of select="BasicInfo/@Source"/></xsl:attribute>
 		</img>
 		
-		<p style="margin-left:300px; font-size:18px; color:#0C6978;">
+		<p style="margin-left:400px; font-size:18px; color:#0C6978;">
 			
 			<strong style="color:#000000;">建筑介绍：</strong>
 			<span style="color:#E80000;"><xsl:value-of select="DetailedInfo/Introduction"/></span>
