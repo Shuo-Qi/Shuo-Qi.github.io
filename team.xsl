@@ -23,7 +23,7 @@
 					<xsl:apply-templates select="contact"/>
 					<xsl:apply-templates select="organization"/>
 					<xsl:apply-templates select="address"/>
-					<img src="https://Shuo-Qi.github.io/img/A.png" style="position:absolute; left:800px; top:640px;"/>
+					<img src="https://Shuo-Qi.github.io/img/A.png" style="position:absolute; left:800px; top:655px;"/>
 				</p>
 			</xsl:when>
 			<xsl:when test="id &gt; 1">
