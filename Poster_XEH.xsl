@@ -6,7 +6,7 @@
 				<h2 style="margin-top:80px;font-family:Georgia;font-weight:bold;color:#BB4444;font-size:45px;text-align:center">世界著名建筑图片</h2>
 				<xsl:for-each select="root/Image">
 					<xsl:sort select="@ID" data-type="number" order="descending"/>
-					<xsl:if test="@ID &lt; 34">
+					<xsl:if test="@ID = 32">
 						<h3 style="font-weight:bold;font-size:30px;color:#808080;text-align:center; margin-top:60px;">
 							<xsl:value-of select="DetailedInfo/@name"/>
 						</h3>
