@@ -3,14 +3,13 @@
 
 <xsl:template match="/">
   <html>
-  <body background="https://Shuo-Qi.github.io/img/img.jpg" style="margin-left:200px;margin-top:50px;margin-right:200px; line-height:1.5;">
+  <body background="https://Shuo-Qi.github.io/img/img.jpg" style="margin-left:150px;margin-top:50px;line-height:1.5;margin-right:150px;">
   
-    <h2 style="margin-top:80px;font-family:Georgia;font-weight:bold;color:#1241AA;font-size:45px;text-align:center">World Classic Architecture</h2>
+    <h2 style="margin-top:80px;font-family:Georgia;font-weight:bold;color:#1241AA;font-size:55px;text-align:center">World Classic Architecture</h2>
        
      <xsl:for-each select="root/Image">
-     <xsl:sort select="@ID" data-type="number" order="descending"/>
-     <xsl:if test="@ID &lt; 34">
-		<h3 style="font-weight:bold;font-size:30px;color:#AD1818;text-align:center; margin-top:60px;">
+     <xsl:if test="@ID = 31">
+		<h3 style="font-weight:bold;font-size:40px;color:#AD1818;text-align:center; margin-top:60px;">
 			<xsl:value-of select="DetailedInfo/@name"/>
 		</h3>
 		
@@ -19,27 +18,19 @@
 		</p>
 		
 		<p>
-		<img align="left" width="30%" height="300px" >
+		<img align="left" width="65%">
 			 <xsl:attribute name="src"><xsl:value-of select="BasicInfo/@Source"/></xsl:attribute>
 		</img>
 		
-		<p style="margin-left:45%; font-size:18px; color:#0C6978;">
-			
-			<strong style="color:#000000;">建筑介绍：</strong>
-			<span style="color:#E80000;"><xsl:value-of select="DetailedInfo/Introduction"/></span>
+		<p style="color:#0C6978; margin-left:75%;font-size:23px;">
 			<br/>
-			<strong style="color:#000000;">建筑风格：</strong>
-			<span style="color:#4E5705; font-weight:bold;"><xsl:value-of select="DetailedInfo/Style/@name"/></span>
-			<br/>
-			<strong style="color:#000000;">风格介绍：</strong>
-			<span style="color:#E80000;"><xsl:value-of select="DetailedInfo/Style"/></span>
-			
+			<strong style="font-size:28px;color:#000000">图片基本信息：</strong>
 			<br/><br/>
-			<strong style="font-size:20px;color:#000000">图片基本信息：</strong>
-			<br/>
 			作者：<xsl:value-of select="BasicInfo/@Author"/>
 			<br/>
-			链接：<xsl:value-of select="BasicInfo/@Source"/>
+			创建时间：<xsl:value-of select="BasicInfo/@Time"/>
+			<br/>
+			链接：<xsl:value-of select="BasicInfo/@Source"/>	
 			<br/>
 			分辨率：<xsl:value-of select="BasicInfo/Resolution"/>
 			<br/>
@@ -49,6 +40,19 @@
 			<br/>
 		</p>
 		</p>
+
+		<p style="margin-top:150px;">
+			
+			<strong style="color:#000000;font-size:25px;">建筑介绍：</strong>
+			<span style="color:#E80000;font-size:25px;"><xsl:value-of select="DetailedInfo/Introduction"/></span>
+			<br/><br/>
+			<strong style="color:#000000;font-size:25px;">建筑风格：</strong>
+			<span style="color:#4E5705; font-weight:bold;font-size:30px;"><xsl:value-of select="DetailedInfo/Style/@name"/></span>
+			<span style="color:#E80000;font-size:25px;margin-left:20px;"><xsl:value-of select="DetailedInfo/Style"/></span>
+			
+		</p>
+		
+		<p style="margin-left:75%;margin-top:100px;font-size:20px;"><i>齐硕【XQZ工作室】出品</i></p>
 		
 	 </xsl:if>	
      </xsl:for-each>
