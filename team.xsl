@@ -23,7 +23,7 @@
 					<xsl:apply-templates select="contact"/>
 					<xsl:apply-templates select="organization"/>
 					<xsl:apply-templates select="address"/>
-					<img src="https://Shuo-Qi.github.io/img/A.png" style="position:absolute; left:800px; top:600px;"/>
+					<img src="https://Shuo-Qi.github.io/img/A.png" style="position:absolute; left:800px; top:700px;"/>
 				</p>
 			</xsl:when>
 			<xsl:when test="id &gt; 1">
@@ -33,7 +33,7 @@
 					<xsl:apply-templates select="contact"/>
 					<xsl:apply-templates select="organization"/>
 					<xsl:apply-templates select="address"/>
-					<img src="https://Shuo-Qi.github.io/img/B.png" style="position:absolute; left:800px; top:800px;"/>
+					<img src="https://Shuo-Qi.github.io/img/B.png" style="position:absolute; left:800px; top:900px;"/>
 				</p>
 			</xsl:when>
 			<xsl:otherwise>
@@ -43,7 +43,7 @@
 					<xsl:apply-templates select="contact"/>
 					<xsl:apply-templates select="organization"/>
 					<xsl:apply-templates select="address"/>
-					<img src="https://Shuo-Qi.github.io/img/C.png" style="position:absolute; left:800px; top:1020px;"/>
+					<img src="https://Shuo-Qi.github.io/img/C.png" style="position:absolute; left:800px; top:1120px;"/>
 				</p>
 			</xsl:otherwise>
 		</xsl:choose>
