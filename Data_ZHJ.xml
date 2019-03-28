@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--DOCTYPE Image SYSTEM "Image.dtd"-->
+
+<!--xml-stylesheet type="text/css" href="https://Shuo-Qi.github.io/css/Data.css"-->
+
+<?xml-stylesheet type="text/xsl" href="Poster_ZHJ.xsl"?>
+
+<root>
+
+	<Image ID = "15" Downloadable = "1">
+
+		<BasicInfo Author = "wang1618" Source = "https://Shuo-Qi.github.io/Architecture/15.jpg" Time = "2018-08-21">
+
+			<Resolution>474*479</Resolution>
+
+			<Format>jpg</Format>
+
+			<Size>50.5KB</Size>
+
+		</BasicInfo>
+
+		<DetailedInfo name = "合院建筑">
+
+			<Introduction>
+
+灰色坡屋顶、筒子瓦及一定高度的墙院围合方式。
+
+			</Introduction>
+
+			<Style name = "新中式建筑风格" Classification = "民族地域">新中式建筑风格中国传统的建筑主张“天人合一、浑然一体”，讲究“静”和“净”环境的平和和建筑的含蓄。
+
+			</Style>
+
+		</DetailedInfo>
+
+	</Image>
+
+	
+
+	<Image ID = "16" Downloadable = "1">
+
+		<BasicInfo Author = "wang1618" Source = "https://Shuo-Qi.github.io/Architecture/16.jpg" Time = "2018-08-21">
+
+			<Resolution>479*318</Resolution>
+
+			<Format>jpg</Format>
+
+			<Size>33.4KB</Size>
+
+		</BasicInfo>
+
+		<DetailedInfo name = "园林建筑">
+
+			<Introduction>
+
+“天人合一”的造园理念、精致的景观和空间处理手法独步天下。
+
+			</Introduction>
+
+			<Style name = "新中式建筑风格" Classification = "民族地域">新中式建筑风格中国传统的建筑主张“天人合一、浑然一体”，讲究“静”和“净”环境的平和和建筑的含蓄。
+
+			</Style>
+
+		</DetailedInfo>
+
+	</Image>
+
+	
+
+	<Image ID = "17" Downloadable = "1">
+
+		<BasicInfo Author = "wang1618" Source = "https://Shuo-Qi.github.io/Architecture/17.jpg" Time = "2018-08-21">
+
+			<Resolution>478*328</Resolution>
+
+			<Format>jpg</Format>
+
+			<Size>38.2KB</Size>
+
+		</BasicInfo>
+
+		<DetailedInfo name = "中式现代建筑">
+
+			<Introduction>
+
+新中式建筑通过现代材料和手法修改了传统建筑中的各个元素，并在此基础上进行必要的演化和抽象化，外貌上看不到传统建筑的原来模样，但在整体风格上，仍然保留着中式住宅的神韵和精髓。
+
+			</Introduction>
+
+			<Style name = "新中式建筑风格" Classification = "民族地域">新中式建筑风格中国传统的建筑主张“天人合一、浑然一体”，讲究“静”和“净”环境的平和和建筑的含蓄。
+
+			</Style>
+
+		</DetailedInfo>
+
+	</Image>
+
+</root>
