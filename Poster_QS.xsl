@@ -18,7 +18,7 @@
 		</p>
 		
 		<p>
-		<img align="left" width="65%" style="margin-bottom:100px;">
+		<img align="left" width="65%">
 			 <xsl:attribute name="src"><xsl:value-of select="BasicInfo/@Source"/></xsl:attribute>
 		</img>
 		
