@@ -1,7 +1,4 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
-"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-
+<?xml version="1.0" standalone="yes"?>
 <svg width="100%" height="100%" version="1.1"
 xmlns="http://www.w3.org/2000/svg">
 
@@ -27,30 +24,32 @@ xmlns="http://www.w3.org/2000/svg">
 </filter>
 </defs>
 
-    <image xlink:href="https://Shuo-Qi.github.io/SVG/background_svg.jpg"
-    width="100%" height="100%"/>
-
     <g style="font-size:30;fill:url(#MyGrad)">
-    	<text x="20" y="200">XQZ</text>
-    	<text x="80" y="230" style="filter:url(#HueRotate)">徐恩昊</text>
-    	<text x="140" y="270" style="filter:url(#Saturate)">71116214</text>
+    	<text x="20" y="220">XQZ</text>
+    	<text x="50" y="260" style="filter:url(#HueRotate)">徐恩昊</text>
+    	<text x="80" y="300" style="filter:url(#Saturate)">71116214</text>
 
     </g>
-    <g transform="translate(100,100)">
-<text id="TextElement" x="0" y="50" style="font-family:Verdana;font-size:24; visibility:hidden"> me
-<set attributeName="visibility" attributeType="CSS" to="visible" begin="1s" dur="5s" fill="freeze"/>
-<animateMotion path="M 0 0 L 100 100" begin="1s" dur="2s" fill="freeze"/>
-<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="-30" to="0" begin="1s" dur="3s" fill="freeze"/>
-<animateTransform attributeName="transform" attributeType="XML" type="scale" from="1" to="3" additive="sum" begin="1s" dur="3s" fill="freeze"/>
-</text>
-</g>
 
+    <ellipse cx="260" cy="310" rx="44" ry="12"
+    style="fill:yellow"/>
 
+    <ellipse cx="260" cy="310" rx="38" ry="8"
+    style="fill:white"/>
+    <ellipse cx="260" cy="310" rx="6" ry="8"
+    style="fill:brown"/>
+    <ellipse cx="260" cy="310" rx="2" ry="4"
+    style=""/>
 
-<rect x="" y="160" width="300" height="130"
+<rect x="" y="160" width="300" height="180"
+style="fill:blue;stroke:pink;stroke-width:5;
+fill-opacity:0.1;stroke-opacity:0.9"/>
+<rect x="220" y="280" width="200" height="130"
 style="fill:blue;stroke:pink;stroke-width:5;
 fill-opacity:0.1;stroke-opacity:0.9"/>
 
-
+<g style="font-size:30;fill:url(#MyGrad)">
+  <text x="300" y="380" style="filter:url(#Matrix)">XML</text>
+</g>
 
 </svg>
