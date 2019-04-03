@@ -55,7 +55,6 @@ xmlns="http://www.w3.org/2000/svg">
 </linearGradient>
 </defs>
 
-<rect x="1" y="1" width="198" height="118" fill="#cccccc" />
 
 <g filter="url(#MyFilter)">
 <path fill="none" stroke="url(#MyGrad_1)" stroke-width="10" d="M50,90 C0,90 0,30 50,30 L150,30 C200,30 200,90 150,90 z" />
