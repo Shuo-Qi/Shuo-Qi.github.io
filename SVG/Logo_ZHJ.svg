@@ -1,0 +1,49 @@
+<?xml version="1.0" standalone="yes"?>
+<svg width="100%" height="100%" version="1.1"
+xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="FiveColor" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" style="stop-color:#F9F900;
+stop-opacity:1"/>
+<stop offset="40%" style="stop-color:#FF5809;
+stop-opacity:1"/>
+<stop offset="70%" style="stop-color:#BB3D00;
+stop-opacity:1"/>
+<stop offset="90%" style="stop-color:#750075;
+stop-opacity:1"/>
+<stop offset="100%" style="stop-color:#460046;
+stop-opacity:1"/>
+</linearGradient>
+
+<filter id="Gaussian_Blur">
+<feGaussianBlur in="SourceGraphic" stdDeviation="1.5" />
+</filter>
+
+<radialGradient id="font" cx="20%" cy="20%" r="50%"
+fx="50%" fy="50%">
+<stop offset="0%" style="stop-color:#000000;
+stop-opacity:0.7"/>
+<stop offset="100%" style="stop-color:#FFFFFF;
+stop-opacity:1"/>
+</radialGradient>
+
+<radialGradient id="name" cx="20%" cy="20%" r="50%"
+fx="50%" fy="50%">
+<stop offset="0%" style="stop-color:#5A5AAD;
+stop-opacity:0.7"/>
+<stop offset="100%" style="stop-color:#8F4586;
+stop-opacity:1"/>
+</radialGradient>
+
+</defs>
+<rect x="20" y="20" rx="30" ry="30" width="250"
+height="100" style="fill:url(#FiveColor);filter:url(#Gaussian_Blur);stroke:gold;
+stroke-width:5;stroke-opacity:0.9"/>
+<g font-size="30" font-weight="900" fill="url(#font)">
+<text x="105" y="55">X Q Z</text>
+</g>
+<path d="M50 70 A10 10,90 0 1 70 70 A10 10,90 0 1 90 70 L70 92 Z" stroke="#EA0000" fill="#EA0000"/>
+<g font-size="30" font-weight="700" fill="url(#name)">
+<text x="135" y="85">Z H J</text>
+</g>
+</svg>
