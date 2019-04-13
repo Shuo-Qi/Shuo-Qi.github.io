@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <Image ID = "46" Downloadable = "1">
+        <BasicInfo Author = "工程宝" Source = "https://Shuo-Qi.github.io/Architecture/46.png" Time = "2017-04-26">
+            <Resolution>693*390</Resolution>
+            <Format>png</Format>
+            <Size>394.0KB</Size>
+        </BasicInfo>
+        <DetailedInfo name = "贵族庭院">
+            <Introduction>
+                灵活适用、流动自然，蓝、灰、绿富有艺术的配色处理赋予建筑动态的韵律和美感。
+            </Introduction>
+            <Style name = "英式建筑风格" Classification = "民族地域">英式建筑风格英式建筑空间灵活适用、流动自然，蓝、灰、绿富有艺术的配色处理赋予建筑动态的韵律与美感。
+            </Style>
+        </DetailedInfo>
+    </Image>
+    
+    <Image ID = "47" Downloadable = "1">
+        <BasicInfo Author = "工程宝" Source = "https://Shuo-Qi.github.io/Architecture/47.png" Time = "2017-04-26">
+            <Resolution>693*524</Resolution>
+            <Format>png</Format>
+            <Size>527.0KB</Size>
+        </BasicInfo>
+        <DetailedInfo name = "法式别墅">
+            <Introduction>
+        外墙多用石材或仿石材装饰，细节处理上运用了法式廊柱、雕花、线条，制作工艺精细考究，呈现出浪漫典雅风格。
+            </Introduction>
+            <Style name = "法式建筑风格" Classification = "民族地域">法式建筑风格法式建筑往往不求简单的协调，而是崇尚冲突之美，呈现出浪漫典雅风格。
+            </Style>
+        </DetailedInfo>
+    </Image>
+    
+    <Image ID = "48" Downloadable = "1">
+        <BasicInfo Author = "工程宝" Source = "https://Shuo-Qi.github.io/Architecture/48.png" Time = "2017-04-26">
+            <Resolution>693*562</Resolution>
+            <Format>png</Format>
+            <Size>672.0KB</Size>
+        </BasicInfo>
+        <DetailedInfo name = "地中海别墅">
+            <Introduction>闲适、浪漫却不乏宁静是地中海风格建筑所蕴含生活方式的精髓所在。</Introduction>
+            <Style name = "地中海建筑风格" Classification = "民族地域">地中海风格建筑，原来是特指沿欧洲地中海北岸沿线的建筑，和当地乡村风格的建筑相结合，产生了诸如法国普罗旺斯、意大利托斯卡纳等地区的经典建筑风格。
+            </Style>
+        </DetailedInfo>
+    </Image>
+    
+    <Image ID = "49" Downloadable = "1">
+        <BasicInfo Author = "工程宝" Source = "https://Shuo-Qi.github.io/Architecture/49.png" Time = "2017-04-26">
+            <Resolution>693*495</Resolution>
+            <Format>png</Format>
+            <Size>734.0KB</Size>
+        </BasicInfo>
+        <DetailedInfo name = "德国公寓">
+            <Introduction>
+    一是外形简练、现代、充满活力，色彩大胆而时尚，属于现代简约派；二是功能讲求实用，任何被认为是多余的装饰都几乎被摒弃。
+            </Introduction>
+            <Style name = "德国建筑风格" Classification = "民族地域">德国建筑风格德国现代建筑简朴明快,色彩庄重,重视质量和功能,在现代世界建筑上占有重要地位。
+            </Style>
+        </DetailedInfo>
+    </Image>
+    
+    <Image ID = "50" Downloadable = "1">
+        <BasicInfo Author = "工程宝" Source = "https://Shuo-Qi.github.io/Architecture/50.png" Time = "2017-04-26">
+            <Resolution>693*478</Resolution>
+            <Format>png</Format>
+            <Size>631.0KB</Size>
+        </BasicInfo>
+        <DetailedInfo name = "北美别墅">
+            <Introduction>
+               大窗、阁楼、坡屋顶、丰富的色彩和流畅的线条。街区氛围追求悠闲活力、自由开放。
+            </Introduction>
+            <Style name = "北美建筑风格" Classification = "民族地域">北美建筑风格北美别墅发展成为既简约大气，又集各种建筑精华于一身的独特风格，充分体现了简洁大方、轻松的特点，居住常常具有人性化。
+            </Style>
+        </DetailedInfo>
+    </Image>
+    
+</root>
